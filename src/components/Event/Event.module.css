@@ -47,3 +47,11 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.info {
+  display: flex;
+}
+
+.info p {
+  margin: 0 0.8rem;
+}

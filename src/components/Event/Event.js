@@ -1,6 +1,8 @@
 import React from "react";
 
 import Button from "../utils/Button/Button";
+
+import commentIcon from "../../assets/comment.png";
 import styles from "./Event.module.css";
 
 const Event = ({ image, title, content, date }) => {
@@ -20,7 +22,12 @@ const Event = ({ image, title, content, date }) => {
       </div>
       <div className={styles.action}>
         <Button>Join Event {">"} </Button>
-        <p>Admin</p>
+        <div className={styles.info}>
+          <p>Admin</p>
+          <div>
+            <img src={commentIcon} alt="comment"></img>
+          </div>
+        </div>
       </div>
     </div>
   );
