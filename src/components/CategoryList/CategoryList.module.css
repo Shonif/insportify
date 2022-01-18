@@ -17,5 +17,19 @@
 
 .eventList {
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
+}
+
+.eventList::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.eventList::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(var(--black-rgb), 0.16);
+}
+
+.eventList::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  outline: none;
 }
