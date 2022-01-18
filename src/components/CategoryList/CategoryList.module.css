@@ -1,19 +1,17 @@
 .category {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .category h1 {
-  margin: auto;
-  width: 5rem;
+  position: absolute;
+  top: 50%;
+  left: -3rem;
   display: block;
   font-family: "Segoe Script";
   font-size: 4rem;
-  transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
 .eventList {
