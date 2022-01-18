@@ -1,0 +1,44 @@
+.label {
+  margin: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  width: 15rem;
+  font-size: 1.2rem;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.input:focus {
+  outline: var(--primary) solid 1px;
+  border: 1px solid var(--primary);
+}
+
+.input::-webkit-datetime-edit-day-field,
+.input::-webkit-datetime-edit-month-field,
+.input::-webkit-datetime-edit-year-field,
+.input::-webkit-inner-spin-button {
+  cursor: text;
+}
+
+.input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+.input::-webkit-datetime-edit-day-field:focus,
+.input::-webkit-datetime-edit-month-field:focus,
+.input::-webkit-datetime-edit-year-field:focus,
+.input::-webkit-inner-spin-button:focus {
+  color: var(--white);
+  background: var(--primary);
+  outline: none;
+}

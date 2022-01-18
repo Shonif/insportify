@@ -1,0 +1,30 @@
+.label {
+  margin: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  margin-top: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  width: 15rem;
+  font-size: 1.2rem;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.select:focus {
+  outline: var(--primary) solid 1px;
+  border: 1px solid var(--primary);
+}
+
+.option {
+  padding: 0.5rem 0.8rem;
+  color: var(--gray);
+  font-size: 1.2rem;
+}
