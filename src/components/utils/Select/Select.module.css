@@ -12,6 +12,7 @@
   font-size: 1.2rem;
   border: 1px solid var(--gray);
   border-radius: 5px;
+
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;

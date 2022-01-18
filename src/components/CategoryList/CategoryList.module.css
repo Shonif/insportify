@@ -1,0 +1,21 @@
+.category {
+  display: flex;
+  justify-content: center;
+}
+
+.category h1 {
+  margin: auto;
+  display: block;
+  font-family: "Segoe Script";
+  font-size: 4rem;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+.eventList {
+  display: flex;
+  overflow: scroll;
+}

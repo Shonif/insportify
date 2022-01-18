@@ -27,5 +27,6 @@
 }
 
 .header .actions button {
+  margin: 0.5rem 0.8rem;
   min-width: 12rem;
 }
