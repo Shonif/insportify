@@ -5,6 +5,7 @@
 
 .category h1 {
   margin: auto;
+  width: 5rem;
   display: block;
   font-family: "Segoe Script";
   font-size: 4rem;
@@ -16,6 +17,7 @@
 }
 
 .eventList {
+  margin: 1rem 0;
   display: flex;
   overflow-x: scroll;
 }
