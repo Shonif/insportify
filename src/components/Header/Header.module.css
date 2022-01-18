@@ -1,0 +1,31 @@
+.header {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header div .logo {
+  min-width: 10em;
+  max-width: 20em;
+}
+
+.header div .nav {
+  margin: 0 3rem;
+  display: flex;
+}
+
+.header .nav li {
+  margin: 0 0.5rem;
+  color: var(--gray);
+  font-size: 1.5rem;
+}
+
+.header .actions button {
+  min-width: 12rem;
+}
